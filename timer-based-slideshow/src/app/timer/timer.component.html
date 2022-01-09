@@ -1,0 +1,19 @@
+<p class="title">TimerBasedSlideShow!</p>
+<div>
+    <p-button id="startclick" class="start" (click)="onStart()"> Start</p-button>
+    <p-button id="pauseclick" class="pause" (click)="onPause()"> Pause</p-button>
+    <div>
+        <span class="count-seconds">
+            {{timeDifference}}
+        </span>
+    </div>
+    <div [ngSwitch]="chart">
+        <div *ngSwitchCase="'bar'">
+            <app-bar-chart></app-bar-chart>
+        </div>
+        <div *ngSwitchCase="'line'">
+            <app-line-chart></app-line-chart>
+        </div>
+        <div *ngSwitchDefault>No Charts</div>
+    </div>
+</div>

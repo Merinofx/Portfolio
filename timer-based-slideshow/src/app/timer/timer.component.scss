@@ -1,0 +1,57 @@
+:host ::ng-deep .p-button {
+  margin-right: -54rem;
+  margin-left: 57rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0;
+  line-height: 1;
+  padding: 32px 32px 32px 32px;
+  background-color: #3B82F6;
+  border-color: #3B82F6;
+  border-style: none;
+  border-width: 1px;
+  width: auto;
+
+}
+
+:host ::ng-deep .sizes {
+  .button {
+    margin-bottom: .5rem;
+    display: block;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.title {
+  font-size: 32px;
+  text-transform: capitalize;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: center;
+}
+
+.count-seconds {
+  color: #000000;
+  box-sizing: border-box;
+  border: solid;
+  background-color: #fff;
+  border-color: #3B82F6;
+  border-style: none;
+  border-width: 1px;
+  line-height: 20px;
+  font-size: 32px;
+  padding: 0 0 0 35px;
+  margin-right: 39.5rem;
+  margin-left: 62rem;
+  margin-top: 5px;
+  transform: translateY(10px);
+  display: flex;
+  font-weight: 600;
+}
